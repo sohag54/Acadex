@@ -219,18 +219,28 @@ export const LoginPage = () => {
             </div>
 
             {/* Quick Demo Login */}
-            <div className="p-4 rounded-2xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-3 shadow-sm">
+            <div className="p-4 rounded-2xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-2.5 shadow-sm">
               <span className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider block text-center">
                 ⚡ Quick Demo Sign-In
               </span>
-              <button
-                type="button"
-                onClick={handleDemoStudent}
-                disabled={loading}
-                className="w-full py-2.5 px-3 rounded-xl bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300 text-xs font-bold hover:bg-indigo-600 hover:text-white transition-all duration-200 flex items-center justify-center gap-1.5 border border-indigo-100 dark:border-indigo-900"
-              >
-                <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500" /> Student Demo
-              </button>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={handleDemoStudent}
+                  disabled={loading}
+                  className="w-full py-2.5 px-2.5 rounded-xl bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300 text-xs font-bold hover:bg-indigo-600 hover:text-white transition-all duration-200 flex items-center justify-center gap-1.5 border border-indigo-100 dark:border-indigo-900 cursor-pointer"
+                >
+                  <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500 shrink-0" /> Student Demo
+                </button>
+                <button
+                  type="button"
+                  onClick={handleDemoAdmin}
+                  disabled={loading}
+                  className="w-full py-2.5 px-2.5 rounded-xl bg-rose-50 text-rose-700 dark:bg-rose-950 dark:text-rose-300 text-xs font-bold hover:bg-rose-600 hover:text-white transition-all duration-200 flex items-center justify-center gap-1.5 border border-rose-100 dark:border-rose-900 cursor-pointer"
+                >
+                  <ShieldCheck className="w-3.5 h-3.5 text-rose-500 shrink-0" /> Admin Demo
+                </button>
+              </div>
             </div>
 
             {errorMessage && (
