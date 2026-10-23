@@ -54,7 +54,7 @@ export const LandingPage = () => {
             </Link>
             <a
               href="#features"
-              className="px-6 py-3.5 rounded-2xl glass-panel text-slate-700 dark:text-slate-200 font-bold text-sm hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
+              className="px-6 py-3.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-100 font-bold text-sm hover:bg-slate-50 dark:hover:bg-slate-800 shadow-sm hover:shadow transition-all"
             >
               Explore Features
             </a>
@@ -131,32 +131,32 @@ export const LandingPage = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="glass-panel p-6 rounded-3xl space-y-3">
-            <div className="p-3 rounded-2xl bg-rose-500/10 text-rose-600 w-fit">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800 shadow-sm hover:shadow-md transition-all space-y-3">
+            <div className="p-3 rounded-2xl bg-rose-50 dark:bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-200/60 dark:border-rose-500/20 w-fit">
               <Layers className="w-6 h-6" />
             </div>
             <h3 className="text-base font-bold text-slate-900 dark:text-white">Scattered Syllabi & Resources</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Juggling 6+ heavy engineering courses with separate Mid and Final syllabi scattered across drive folders and lecture notes leads to lost productivity.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3">
-            <div className="p-3 rounded-2xl bg-amber-500/10 text-amber-600 w-fit">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800 shadow-sm hover:shadow-md transition-all space-y-3">
+            <div className="p-3 rounded-2xl bg-amber-50 dark:bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-200/60 dark:border-amber-500/20 w-fit">
               <Clock className="w-6 h-6" />
             </div>
             <h3 className="text-base font-bold text-slate-900 dark:text-white">No Visibility on Weak Topics</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Students waste hours re-reading concepts they already master, without knowing which specific topics lower their exam performance.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3">
-            <div className="p-3 rounded-2xl bg-indigo-500/10 text-indigo-600 w-fit">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800 shadow-sm hover:shadow-md transition-all space-y-3">
+            <div className="p-3 rounded-2xl bg-indigo-50 dark:bg-indigo-500/15 text-indigo-600 dark:text-indigo-400 border border-indigo-200/60 dark:border-indigo-500/20 w-fit">
               <HelpCircle className="w-6 h-6" />
             </div>
             <h3 className="text-base font-bold text-slate-900 dark:text-white">Lack of Instant Feedback</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Solving short or long practice questions without instant model answer evaluation leaves students guessing whether their answers earn top marks.
             </p>
           </div>
@@ -175,50 +175,74 @@ export const LandingPage = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <BookOpen className="w-7 h-7 text-indigo-600" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">Independent Mid & Final Tracker</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-indigo-400/60 dark:hover:border-indigo-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-800/40 w-fit group-hover:scale-105 transition-transform">
+              <BookOpen className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+              Independent Mid & Final Tracker
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Track completed topics independently for Midterm and Final exams with real-time percentage indicators.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <Sparkles className="w-7 h-7 text-cyan-500" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">AI Question Generator</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-cyan-400/60 dark:hover:border-cyan-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-cyan-50 dark:bg-cyan-950/60 text-cyan-600 dark:text-cyan-400 border border-cyan-100 dark:border-cyan-800/40 w-fit group-hover:scale-105 transition-transform">
+              <Sparkles className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+              AI Question Generator
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Generate custom MCQs, short questions, and long essay prompts per topic with tailored difficulty.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <FileText className="w-7 h-7 text-violet-500" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">Acadex PDF Tutor (RAG)</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-violet-400/60 dark:hover:border-violet-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-violet-50 dark:bg-violet-950/60 text-violet-600 dark:text-violet-400 border border-violet-100 dark:border-violet-800/40 w-fit group-hover:scale-105 transition-transform">
+              <FileText className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+              Acadex PDF Tutor (RAG)
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Upload course PDFs or lecture notes and chat with grounded context retrieval and page citations.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <BrainCircuit className="w-7 h-7 text-emerald-500" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">AI Answer Evaluation</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-emerald-400/60 dark:hover:border-emerald-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-800/40 w-fit group-hover:scale-105 transition-transform">
+              <BrainCircuit className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+              AI Answer Evaluation
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Submit short or long answers and receive instant scoring, strengths, missing points, and model answers.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <Target className="w-7 h-7 text-rose-500" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">Weak Topic Analysis</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-rose-400/60 dark:hover:border-rose-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 border border-rose-100 dark:border-rose-800/40 w-fit group-hover:scale-105 transition-transform">
+              <Target className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+              Weak Topic Analysis
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Automated classification of Strong, Average, and Weak topics based on quiz scores and attempt accuracy.
             </p>
           </div>
 
-          <div className="glass-panel p-6 rounded-3xl space-y-3 hover:border-indigo-500/50 transition-colors">
-            <BarChart3 className="w-7 h-7 text-amber-500" />
-            <h3 className="text-base font-bold text-slate-900 dark:text-white">Performance Analytics & PYQs</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900/70 border border-slate-200/90 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-amber-400/60 dark:hover:border-amber-500/50 transition-all group space-y-3">
+            <div className="p-3 rounded-2xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 border border-amber-100 dark:border-amber-800/40 w-fit group-hover:scale-105 transition-transform">
+              <BarChart3 className="w-6 h-6" />
+            </div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+              Performance Analytics & PYQs
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
               Access previous-year exam solutions, mock tests, weekly study trend charts, and leaderboard ranks.
             </p>
           </div>
@@ -269,11 +293,11 @@ export const LandingPage = () => {
 
       {/* 5. CALL TO ACTION */}
       <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center space-y-6">
-        <div className="glass-panel p-10 sm:p-14 rounded-3xl border border-indigo-200 dark:border-indigo-900/50 space-y-4">
+        <div className="p-10 sm:p-14 rounded-3xl bg-gradient-to-b from-white via-indigo-50/40 to-white dark:from-slate-900 dark:via-slate-900/90 dark:to-slate-950 border border-indigo-200/80 dark:border-indigo-900/50 shadow-xl space-y-4">
           <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white">
             Start preparing smarter with Acadex.
           </h2>
-          <p className="text-sm text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
+          <p className="text-sm text-slate-600 dark:text-slate-300 max-w-xl mx-auto font-medium">
             Join engineering students tracking their syllabus and achieving top semester GPA with AI tools.
           </p>
           <div className="pt-2">
