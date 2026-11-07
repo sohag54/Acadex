@@ -43,6 +43,7 @@ import { AdminPYQPage } from './pages/admin/AdminPYQPage';
 import { AdminResourcesPage } from './pages/admin/AdminResourcesPage';
 import { AdminSettingsPage } from './pages/admin/AdminSettingsPage';
 
+// Main application component: manages theme, authentication, and routing.
 export function App() {
   return (
     <ThemeProvider>
