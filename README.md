@@ -2,11 +2,6 @@
 
 <div align="center">
 
-![Acadex Banner](https://img.shields.io/badge/Acadex-Frontend-6366f1?style=for-the-badge&logo=react&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite%206-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
 **"Master Your Semester. Prepare Smarter."**
 
 *A modern frontend application designed to help CSE students track academic progress and prepare for examinations.*
